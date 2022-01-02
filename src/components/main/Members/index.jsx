@@ -5,7 +5,7 @@ import React from 'react';
 const Events = (props)=>{
     return (
       <React.Fragment>
-        <h1>Events page</h1>
+        <h1>Member page</h1>
       </React.Fragment>
     );
 };
