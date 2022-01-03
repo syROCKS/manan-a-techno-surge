@@ -7,7 +7,7 @@
 ## ⚡Hoisted on Netlify  
 - Production website: [Link](https://manantechnosurge.netlify.app/)  
 
-[Note: This app is not created using `create react app`, It uses [Vite](https://vitejs.dev/) which is a build tool that significantly improves the front-end development experience.]  
+> [Note: This app is not created using `create react app`, It uses [Vite](https://vitejs.dev/) which is a build tool that significantly improves the front-end development experience.]  
 
 --- 
 
@@ -32,3 +32,18 @@
 8. Click on **Pull Request** tab in your repo on github then **New Pull Request**,  
 9. Select **dev** branch in base repo box and **< your feature branch >** in compare box
 10. Explain about the changes you made in message box below and create a pull request.
+--- 
+## 📂 Preferred folder Structure
+
+ 📦Components  
+ ┣ 📂Main (Main Pages and their unique components)   
+ ┃  ┗ 📂 Landing (For example)     
+ ┃  ┃  ┗ 📂 Banner (a unique component for Landing page)  
+ ┃  ┃  ┃  ┗ 📜index.jsx and 📜style.css  
+ ┃  ┃  ┗ 📜index.jsx and 📜style.css (exported to app.jsx)  
+
+ ┣ 📂Shared (Shared components like Navar and Inputs)   
+ ┃  ┗ 📂 Navbar (For example)      
+ ┃  ┃  ┗ 📜index.jsx and 📜style.css   
+
+ > [NOTE: Use .jsx after all react component files to not encounter any unexpected errors]
